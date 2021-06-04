@@ -1,12 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+  text-align: center;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background: url("Images/background.jpg") no-repeat center center fixed;
-  background-size: cover;
 }
 
-.container {
+.homeContainer {
+  background: url("Images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -25,20 +44,6 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.background {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
 }
 
 .title {
@@ -76,4 +81,12 @@ body {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
