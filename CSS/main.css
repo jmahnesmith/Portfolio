@@ -47,10 +47,14 @@ header {
   justify-content: center;
 }
 .card {
-  background: white;
-  width: 270px;
-  height: 400px;
-  margin: 15px;
+  background-color: white;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+  width: 300px;
+  margin: 10px;
+}
+
+.card h2, p{
+  background-color: white;
 }
 
 .card-image {
@@ -61,7 +65,7 @@ header {
 }
 
 .car-1 {
-  background-image: url();
+  background-image: url('/images/Covid-19-detection.PNG');
 }
 
 .car-2 {
