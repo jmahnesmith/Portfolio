@@ -5,11 +5,6 @@
   margin: 0;
   padding: 0;
   background-color: #24252a;
-}
-
-li,
-a,
-button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -19,7 +14,7 @@ button {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 30px 10%;
 }
@@ -28,32 +23,51 @@ header {
   color: white;
 }
 
-.nav__links {
+.nav-links {
   list-style: none;
 }
 
-.nav__links li {
+.nav-links li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.nav__links li a {
+.nav-links li a {
+  font-size: 28px;
   transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav-links li a:hover {
   color: #0088a9;
 }
 
-button {
-  padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 15px;
 }
 
-button:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+.card-image {
+  background-color: aqua;
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.car-1 {
+  background-image: url();
+}
+
+.car-2 {
+  background-image: url();
+}
+
+.car-3 {
+  background-image: url();
 }
