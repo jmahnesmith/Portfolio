@@ -12,15 +12,15 @@
   text-decoration: none;
 }
 
+body {
+  overflow: hidden;
+}
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px 10%;
-}
-
-.logo-text {
-  color: white;
 }
 
 .nav-links {
@@ -38,7 +38,7 @@ header {
 }
 
 .nav-links li a:hover {
-  color: #0088a9;
+  color: #5750F6;
 }
 
 .card-container {
@@ -53,25 +53,4 @@ header {
   margin: 10px;
 }
 
-.card h2, p{
-  background-color: white;
-}
 
-.card-image {
-  background-color: aqua;
-  height: 170px;
-  margin-bottom: 15px;
-  background-size: cover;
-}
-
-.car-1 {
-  background-image: url('/images/Covid-19-detection.PNG');
-}
-
-.car-2 {
-  background-image: url();
-}
-
-.car-3 {
-  background-image: url();
-}
