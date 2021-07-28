@@ -60,6 +60,13 @@ header {
 
 /* About Section */
 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -68,10 +75,10 @@ header {
 }
 
 .profile-picture {
-  display: inline-block;
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  overflow: hidden;
 
   margin-top: 75px;
 
