@@ -1,0 +1,13 @@
+.image-background {
+    border-radius: 50%;
+    background: rgba(123, 74, 226, 0.2);
+    position: relative;
+    height: 400px;
+    width: 400px;
+    display: flex;
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+}

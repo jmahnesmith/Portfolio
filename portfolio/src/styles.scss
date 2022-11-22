@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    background-color: #090E16;
+}
+
+* {
+    font-family: 'Raleway';
+}
+
+a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+body {
+    box-sizing: border-box;
+    padding: 30px 10% 30px 10%;
+    color: #fff;
+}
