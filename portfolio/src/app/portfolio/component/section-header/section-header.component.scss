@@ -1,0 +1,21 @@
+
+.container {
+    width: 160px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #7a4ae210;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol {
+    background-color: #7B4AE2;
+    width: 15px;
+    height: 15px;
+}
+
+.title {
+    color: #7B4AE2;
+}

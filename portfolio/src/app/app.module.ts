@@ -7,16 +7,21 @@ import { NavbarComponent } from './portfolio/component/navbar/navbar.component';
 import { NameCardComponent } from './portfolio/component/name-card/name-card.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AvatarComponent } from './portfolio/component/avatar/avatar.component';
-import { HomeContactComponent } from './portfolio/component/home-contact/home-contact.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AboutMeComponent } from './portfolio/component/about-me/about-me.component';
+import { SectionHeaderComponent } from './portfolio/component/section-header/section-header.component';
+import { ButtonComponent } from './shared/button/button.component';
+
 
 @NgModule({
   declarations: [
     AppComponent, 
-    PortfolioComponent, NavbarComponent, NameCardComponent, AvatarComponent, HomeContactComponent
+    PortfolioComponent, NavbarComponent, NameCardComponent, AvatarComponent, AboutMeComponent, SectionHeaderComponent, ButtonComponent
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

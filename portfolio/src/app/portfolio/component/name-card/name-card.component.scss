@@ -1,3 +1,7 @@
+* { 
+    margin: 0 0 5px 0;
+}
+
 h1 {
     font-style: normal;
     font-weight: 800;
@@ -5,7 +9,18 @@ h1 {
     line-height: 61px;
 }
 
+.sub-title {
+    font-weight: lighter;
+    font-size: 18px;
+    color: #838589;
+    margin-bottom: 25px;
+}
+
 .social {
     display: flex;
-    gap: 5px;
+    gap: 15px;
+}
+
+fa-icon {
+    font-size: 1.75em;
 }
