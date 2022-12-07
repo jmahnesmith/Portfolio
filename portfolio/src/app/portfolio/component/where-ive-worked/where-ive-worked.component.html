@@ -1,14 +1,52 @@
-<app-section-header number="02." title="Where I've Worked"></app-section-header>
+<app-section-header number="03." title="Where I've Worked"></app-section-header>
 <div class="work-container">
+    <h3 class="work-title">WellRight</h3>
     <div class="work-year">
         <p>2022 - Present</p>
     </div>
     <div class="work-description">
-        <h3>WellRight</h3>
+        
         <p>Part of a team of developers that designed a serverless web application. 
             Develop and document standard operating procedures and best practices. 
             Work with designers and product to ensure requirements are met.
         </p>
-        <p class="technologies">Angular • NgRx • AWS • Serverless • Dotnet Core</p>
+        <app-list [list]="wellrightTechnologies"></app-list>
+    </div>
+</div>
+
+<div class="line"></div>
+
+<div class="work-container">
+    <h3 class="work-title">Changeis</h3>
+    <div class="work-year">
+        <p>2021 - 2022</p>
+    </div>
+    <div class="work-description">
+        
+        <p>At Changeis I worked with the FAA to develop and deploy a secure asp.net core 5 application that improved employee workflow and lowered error rates. 
+            I Integrated data processing to increase efficiency for user data uploads.
+            Gathered and organized business requirements into user stories.
+            Integrated authentication and authorization in asp.net core 5 web app.
+            
+        </p>
+        <app-list [list]="changeisTechnologies"></app-list>
+    </div>
+</div>
+
+<div class="line"></div>
+
+<div class="work-container">
+    <h3 class="work-title">9th Judicial Circuit</h3>
+    <div class="work-year">
+        <p>2018 - 2021</p>
+    </div>
+    <div class="work-description">
+        
+        <p>I Worked alongside another development team to design, develop, and deploy a set of ASP.NET web API'S to enable electronic case ﬁling with legacy application structure.
+            Designed and implemented multiple C# desktop applications that improved employee workﬂow.
+            Created .NET core API to serve ﬁnancial data to external vendors to integrate with external systems.
+            
+        </p>
+        <app-list [list]="ninthJudicialTechnologies"></app-list>
     </div>
 </div>

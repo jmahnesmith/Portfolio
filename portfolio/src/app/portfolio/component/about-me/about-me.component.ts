@@ -7,8 +7,13 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class AboutMeComponent implements OnInit {
 
-  
-
+  listOfSkills : string[] = [
+    "Angular (v13+)",
+  "TypeScript",
+  "Dotnet Core",
+  "DynamoDB",
+  "Microservices",
+  "Serverless Architecture"]
   constructor() { }
 
   ngOnInit(): void {

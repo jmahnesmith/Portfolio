@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhereIveWorkedComponent implements OnInit {
 
+  wellrightTechnologies : string[] = ["Angular", "NgRx", "AWS", "Serverless", ".NET Core"]
+  changeisTechnologies : string[] = ["jQuery", "Microsoft Server SQL", "Palentir", "Javascript", ".NET Core"]
+  ninthJudicialTechnologies : string[] = [".NET Framework", "Pervasive SQL", "WinForms"]
+
   constructor() { }
 
   ngOnInit(): void {

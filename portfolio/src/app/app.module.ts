@@ -12,12 +12,14 @@ import { AboutMeComponent } from './portfolio/component/about-me/about-me.compon
 import { SectionHeaderComponent } from './portfolio/component/section-header/section-header.component';
 import { ButtonComponent } from './shared/button/button.component';
 import { WhereIveWorkedComponent } from './portfolio/component/where-ive-worked/where-ive-worked.component';
+import { ListComponent } from './shared/list/list.component';
+import { ProjectsComponent } from './portfolio/component/projects/projects.component';
 
 
 @NgModule({
   declarations: [
     AppComponent, 
-    PortfolioComponent, NavbarComponent, NameCardComponent, AvatarComponent, AboutMeComponent, SectionHeaderComponent, ButtonComponent, WhereIveWorkedComponent
+    PortfolioComponent, NavbarComponent, NameCardComponent, AvatarComponent, AboutMeComponent, SectionHeaderComponent, ButtonComponent, WhereIveWorkedComponent, ListComponent, ProjectsComponent
   ],
   imports: [
     BrowserModule,

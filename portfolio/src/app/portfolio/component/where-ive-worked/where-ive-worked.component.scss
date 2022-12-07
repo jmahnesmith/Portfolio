@@ -6,12 +6,23 @@
     width: 100%;
     margin-inline-end: auto;
     margin-inline-start: auto;
+    margin-bottom: 2.5rem;
+}
+.work-title {
+    grid-column: span 3/ span 4;
 }
 
 .work-year {
-    grid-column: span 1/span 4;
+    grid-column: 4/span 4;
 }
 
 .work-description {
     grid-column: span 4/ span 4;
+}
+
+.line {
+    height: 1px;
+    margin-bottom: 5px;
+    background-color: var(--lightest-navy);
+    width: 100%;
 }
