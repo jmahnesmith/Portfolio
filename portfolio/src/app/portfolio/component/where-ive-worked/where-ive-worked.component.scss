@@ -1,0 +1,17 @@
+.work-container {
+    display: grid;
+    grid-gap: clamp(4px, calc(-5px + 2.42vw), 24px);
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1920px;
+    width: 100%;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+}
+
+.work-year {
+    grid-column: span 1/span 4;
+}
+
+.work-description {
+    grid-column: span 4/ span 4;
+}

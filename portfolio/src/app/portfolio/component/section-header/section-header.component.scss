@@ -1,21 +1,30 @@
+section-header {
+    display: block;
+}
 
 .container {
-    width: 160px;
-    height: 45px;
-    border-radius: 15px;
-    background-color: #7a4ae210;
     display: flex;
-    gap: 5px;
-    justify-content: center;
+    width: 100%;
     align-items: center;
+    gap: 20px;
 }
 
-.symbol {
-    background-color: #7B4AE2;
-    width: 15px;
-    height: 15px;
+.number {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: clamp(var(--fz-lg), 3vw, var(--fz-xl));
+    font-weight: 400;
+    margin-bottom: 5px;
 }
 
-.title {
-    color: #7B4AE2;
+.line {
+    height: 1px;
+    margin-bottom: 5px;
+    background-color: var(--lightest-navy);
+    width: 30%;
+}
+
+
+h2 {
+    font-size: clamp(26px, 5vw, var(--fz-heading));
 }

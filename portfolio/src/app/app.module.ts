@@ -11,12 +11,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AboutMeComponent } from './portfolio/component/about-me/about-me.component';
 import { SectionHeaderComponent } from './portfolio/component/section-header/section-header.component';
 import { ButtonComponent } from './shared/button/button.component';
+import { WhereIveWorkedComponent } from './portfolio/component/where-ive-worked/where-ive-worked.component';
 
 
 @NgModule({
   declarations: [
     AppComponent, 
-    PortfolioComponent, NavbarComponent, NameCardComponent, AvatarComponent, AboutMeComponent, SectionHeaderComponent, ButtonComponent
+    PortfolioComponent, NavbarComponent, NameCardComponent, AvatarComponent, AboutMeComponent, SectionHeaderComponent, ButtonComponent, WhereIveWorkedComponent
   ],
   imports: [
     BrowserModule,

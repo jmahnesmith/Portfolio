@@ -6,24 +6,31 @@
 
 .home-container {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    align-items: start;
-    justify-content: space-around;
-    margin-top: 20vh
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+    gap: 10%;
 }
 
 main {
-    margin: 0px auto;
+    max-width: 500px;
+    margin: auto;
     width: 100%;
-    max-width: 1600px;
-    min-height: 100vh;
+    padding: 0px 100px;
 }
 
+section {
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+
 app-name-card {
-    max-width: 300px;
+    max-width: 600px;
 }
 
 app-about-me {
-    display: flex;
-    justify-content: center;
+    max-width: 900px;
 }
