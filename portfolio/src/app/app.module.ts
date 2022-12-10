@@ -15,12 +15,13 @@ import { WhereIveWorkedComponent } from './portfolio/component/where-ive-worked/
 import { ListComponent } from './shared/list/list.component';
 import { ProjectsComponent } from './portfolio/component/projects/projects.component';
 import { CardComponent } from './shared/card/card.component';
+import { ContactComponent } from './portfolio/component/contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent, 
-    PortfolioComponent, NavbarComponent, NameCardComponent, AvatarComponent, AboutMeComponent, SectionHeaderComponent, ButtonComponent, WhereIveWorkedComponent, ListComponent, ProjectsComponent, CardComponent
+    PortfolioComponent, NavbarComponent, NameCardComponent, AvatarComponent, AboutMeComponent, SectionHeaderComponent, ButtonComponent, WhereIveWorkedComponent, ListComponent, ProjectsComponent, CardComponent, ContactComponent
   ],
   imports: [
     BrowserModule,
