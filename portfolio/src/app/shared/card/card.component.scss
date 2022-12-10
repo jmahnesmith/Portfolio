@@ -1,0 +1,43 @@
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+app-button {
+    margin-top: 15px;
+    align-content: flex-end;
+}
+
+.container {
+    flex: 0 0 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--light-navy);
+    border-radius: var(--border-radius);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.image {
+    max-width: 150px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: var(--border-radius);
+}
