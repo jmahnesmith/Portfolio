@@ -9,6 +9,13 @@
     text-decoration: none;
     cursor: pointer;
     text-align: end;
-    transition: (--transition);
+    transition: border-color 0.5s, background-color 0.5s, color 0.5s;
     font-size: var(--fz-xs);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--green);
+    border-color: transparent;
+    color: var(--white);
 }

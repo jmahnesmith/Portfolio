@@ -46,6 +46,11 @@ ol li {
     font-size: var(--fz-xs);
 }
 
+a:hover,
+a:focus {
+    color: var(--green);
+}
+
 ol li a {
     padding: 10px;
 }

@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+    app-navbar{
+        display: none;
+    }  
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -9,21 +15,24 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     min-height: 100vh;
     padding: 0px;
-    gap: 10%;
+    align-content: center;
+    gap: 1rem;
 }
+
 
 main {
     max-width: 80vw;
     margin: auto;
     width: 100%;
-    padding: 0px 100px;
 }
 
 section {
     margin: 0px auto;
     padding: 100px 0px;
+    max-width: 60vw;
 }
 
 

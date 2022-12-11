@@ -14,8 +14,7 @@ app-button {
 }
 
 .container {
-    flex: 0 0 100%;
-    width: 100%;
+    width: 60vw;
     padding: 20px;
     background-color: var(--light-navy);
     border-radius: var(--border-radius);
@@ -23,19 +22,37 @@ app-button {
 
 .card {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    /*Tablets [1001px -> 1200px]*/
+    .container {
+        max-width: 100%;
+    }
+
+    .card {
+        flex-direction: column-reverse;
+    }
+
+    .card-body {
+        text-align: center;
+    }
 }
 
 .card-body {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
 }
 
 .image {
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
     background-repeat: no-repeat;
     background-size: contain;

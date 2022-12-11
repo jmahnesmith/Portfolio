@@ -1,12 +1,14 @@
 .image-background {
     border-radius: 50%;
     background: var(--light-navy);
-    height: 400px;
-    width: 400px;
+    height: auto;
+    max-width: 800px;
     display: flex;
 }
 
 img {
     justify-content: center;
     align-items: center;
+    max-width: 800px;
+    height: auto;
 }
