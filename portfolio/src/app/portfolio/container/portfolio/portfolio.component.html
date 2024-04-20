@@ -1,23 +1,30 @@
-
 <div class="container">
-    <app-navbar></app-navbar>
-    <main>
-        <section id="home" class="home-container">
-            <app-name-card></app-name-card>
-            <app-avatar></app-avatar>
-        </section>
-        <section id="about">
-            <app-about-me></app-about-me>
-        </section>
-        <section id="experience">
-            <app-projects></app-projects>
-        </section>
-        <section id="work">
-            <app-where-ive-worked></app-where-ive-worked>
-        </section>
-        <section id="contact">
-            <app-contact></app-contact>
-        </section>
-    </main>
+  <app-navbar></app-navbar>
+  <main>
+    <div id="home" class="anchor-offset"></div>
+    <section class="home-container">
+      <app-name-card></app-name-card>
+      <app-avatar></app-avatar>
+    </section>
+
+    <div id="about" class="anchor-offset"></div>
+    <section>
+      <app-about-me></app-about-me>
+    </section>
+
+    <div id="experience" class="anchor-offset"></div>
+    <section>
+      <app-projects></app-projects>
+    </section>
+
+    <div id="work" class="anchor-offset"></div>
+    <section>
+      <app-where-ive-worked></app-where-ive-worked>
+    </section>
+
+    <div id="contact" class="anchor-offset"></div>
+    <section>
+      <app-contact></app-contact>
+    </section>
+  </main>
 </div>
-    

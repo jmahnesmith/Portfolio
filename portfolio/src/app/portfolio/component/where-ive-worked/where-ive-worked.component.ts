@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class WhereIveWorkedComponent implements OnInit {
 
   wellrightTechnologies : string[] = ["Angular", "NgRx", "AWS", "Serverless", ".NET Core"]
-  changeisTechnologies : string[] = ["jQuery", "Microsoft Server SQL", "Palentir", "Javascript", ".NET Core"]
-  ninthJudicialTechnologies : string[] = [".NET Framework", "Pervasive SQL", "WinForms"]
+  changeisTechnologies : string[] = ["jQuery", "Microsoft Server SQL", "Javascript", ".NET Core"]
+  ninthJudicialTechnologies : string[] = [".NET Framework", "Pervasive SQL", "ASP.NET", "WinForms"]
 
   constructor() { }
 

@@ -1,10 +1,10 @@
 .container {
     text-align: center;
-    margin:0 15% 0 15%;
+    margin: 0 15% 0 15%;
 }
 
 .section-header {
-    color: var(--green);
+    color: var(--orange);
     margin-bottom: 20px;
     font-family: var(--font-mono);
     font-size: var(--fz-md);
@@ -15,15 +15,15 @@
     position: relative;
     content: "04.";
     margin-right: 10px;
-    color: var(--green);
+    color: var(--orange);
     font-family: var(--font-mono);
     font-weight: 400;
 }
 
 .button {
-    color: var(--green);
+    color: var(--orange);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--orange);
     border-radius: var(--border-radius);
     padding: 0.75em 1rem;
     font-family: var(--font-mono);
@@ -44,4 +44,3 @@ h1 {
     margin-top: 5px;
     font-size: clamp(40px, 5vw, 60px);
 }
-

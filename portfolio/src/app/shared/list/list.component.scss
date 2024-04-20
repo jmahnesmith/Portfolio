@@ -1,27 +1,32 @@
+@import '../styles/breakpoints';
 .skills-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    gap: 0px 10px;
-    padding: 0px;
-    margin: 20px 0px 0px;
-    overflow: hidden;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-mono);
+
+  @include min-sm {
+    justify-content: start;
+  }
 }
 
 .skills-list li {
-    position: relative;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    font-family: var(--font-mono);
-    font-size: var(--fz-sm);
+  background-color: var(--dark-navy);
+  color: var(--lightest-slate);
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--border-radius);
+  font-size: 0.85rem;
+  transition: transform 0.2s ease-in-out, background-color 0.2s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 500;
 }
 
-.skills-list li::before {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: var(--green);
-    font-size: var(--fz-sm);
-    line-height: 12px;
-
+.skills-list li:hover {
+  transform: translateY(-3px);
+  background-color: var(--orange);
+  color: var(--dark-navy);
 }

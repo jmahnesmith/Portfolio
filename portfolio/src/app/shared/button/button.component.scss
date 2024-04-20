@@ -1,7 +1,7 @@
 .button {
-    color: var(--green);
+    color: var(--orange);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--orange);
     border-radius: var(--border-radius);
     padding: 0.75em 1rem;
     font-family: var(--font-mono);
@@ -15,7 +15,7 @@
 
 .button:hover,
 .button:focus {
-    background-color: var(--green);
+    background-color: var(--orange);
     border-color: transparent;
     color: var(--white);
 }

@@ -12,6 +12,7 @@ export class CardComponent implements OnInit {
   @Input() subTitle : string = "";
   @Input() buttonText : string = "";
   @Input() href : string = "";
+  @Input() skillList: string[] = [];
 
   constructor() { }
 

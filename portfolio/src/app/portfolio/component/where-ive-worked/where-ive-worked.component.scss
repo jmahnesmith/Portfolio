@@ -1,28 +1,81 @@
-.work-container {
-    display: grid;
-    grid-gap: clamp(4px, calc(-5px + 2.42vw), 24px);
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1920px;
-    width: 100%;
-    margin-inline-end: auto;
-    margin-inline-start: auto;
-    margin-bottom: 2.5rem;
+@import '../../../shared/styles/breakpoints';
+
+.work-experience-section {
+  margin: 2rem auto;
+  padding: 0 2rem;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+
+  @include min-lg {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+  }
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  grid-template-rows: 4rem 1fr 4rem;
+}
+
+
 .work-title {
-    grid-column: span 3/ span 4;
+  margin: 0;
+  color: var(--lightest-slate);
 }
 
 .work-year {
-    grid-column: 4/span 4;
+  font-size: var(--fz-md);
+  margin: 0;
+  color: var(--slate);
 }
 
 .work-description {
-    grid-column: span 4/ span 4;
+  color: var(--light-slate);
+}
+
+.technologies-used span {
+  display: inline-block;
+  background-color: var(--dark-navy);
+  color: var(--orange);
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease;
 }
 
 .line {
-    height: 1px;
-    margin-bottom: 5px;
-    background-color: var(--lightest-navy);
-    width: 100%;
+  display: block;
+  height: 1px;
+  margin-bottom: 2rem;
+  background-color: var(--lightest-navy);
+  width: 100%;
+
+  @include min-sm {
+    display: none;
+  }
+}
+
+.technologies-used span:hover {
+  transform: translateY(-2px);
+}
+
+.work-separator {
+  border: none;
+  height: 1px;
+  background-color: var(--lightest-navy);
+}
+
+.work-entry:hover {
+  background-color: var(--lightest-navy);
+}
+
+app-list {
+  margin-top: auto;
 }

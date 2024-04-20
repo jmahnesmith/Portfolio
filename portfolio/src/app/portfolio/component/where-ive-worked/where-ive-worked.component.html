@@ -1,54 +1,41 @@
 <app-section-header number="03." title="Where I've Worked"></app-section-header>
 <div class="container">
+    <!-- WellRight Experience -->
     <div class="work-container">
-        <h3 class="work-title">WellRight</h3>
-        <div class="work-year">
-            <p>2022 - Present</p>
+        <div>
+          <h3 class="work-title">Full Stack Engineer at WellRight</h3>
+          <p class="work-year">Apr 2022 - Present</p>
         </div>
-        <div class="work-description">
-            
-            <p>Part of a team of developers that designed a serverless web application. 
-                Develop and document standard operating procedures and best practices. 
-                Work with designers and product to ensure requirements are met.
-            </p>
-            <app-list [list]="wellrightTechnologies"></app-list>
-        </div>
+        <p class="work-description">
+            As a Full Stack Engineer working remotely, I developed and deployed a client-coach scheduling system in a microservices environment utilizing AWS Lambda. Automated deployment processes using AWS CDK and implemented a step function to generate custom user communication lists. Optimized data retrieval and storage by implementing DynamoDB's single table design to meet our specific business data requirements.
+        </p>
+        <app-list [list]="wellrightTechnologies"></app-list>
     </div>
-    
-    <div class="line"></div>
-    
+    <span class="line"></span>
+
+    <!-- Changeis Experience -->
     <div class="work-container">
-        <h3 class="work-title">Changeis</h3>
-        <div class="work-year">
-            <p>2021 - 2022</p>
+        <div>
+          <h3 class="work-title">Dotnet Developer at Changeis</h3>
+          <p class="work-year">Sep 2021 - Apr 2022</p>
         </div>
-        <div class="work-description">
-            
-            <p>At Changeis I worked with the FAA to develop and deploy a secure asp.net core 5 application that improved employee workflow and lowered error rates. 
-                I Integrated data processing to increase efficiency for user data uploads.
-                Gathered and organized business requirements into user stories.
-                Integrated authentication and authorization in asp.net core 5 web app.
-                
-            </p>
-            <app-list [list]="changeisTechnologies"></app-list>
-        </div>
+        <p class="work-description">
+            In Arlington, Virginia, I collaborated with the FAA to develop and deploy a secure ASP.NET Core 5 application, significantly improving employee workflow and reducing error rates. My role included integrating data processing enhancements to user data upload efficiency, translating business requirements into actionable user stories, and incorporating robust authentication and authorization mechanisms into the ASP.NET Core 5 web app.
+        </p>
+        <app-list [list]="changeisTechnologies"></app-list>
     </div>
-    
-    <div class="line"></div>
-    
+    <span class="line"></span>
+
+    <!-- 9th Judicial Circuit Experience -->
     <div class="work-container">
-        <h3 class="work-title">9th Judicial Circuit</h3>
-        <div class="work-year">
-            <p>2018 - 2021</p>
+        <div>
+          <h3 class="work-title">Programming Analyst at 9th Judicial Circuit</h3>
+          <p class="work-year">Jun 2018 - Sep 2021</p>
         </div>
-        <div class="work-description">
-            
-            <p>I Worked alongside another development team to design, develop, and deploy a set of ASP.NET web API'S to enable electronic case ﬁling with legacy application structure.
-                Designed and implemented multiple C# desktop applications that improved employee workﬂow.
-                Created .NET core API to serve ﬁnancial data to external vendors to integrate with external systems.
-                
-            </p>
-            <app-list [list]="ninthJudicialTechnologies"></app-list>
-        </div>
+        <p class="work-description">
+            Contributed as a key team member in designing, developing, and deploying ASP.NET web APIs, facilitating electronic case filing compatible with the existing application framework. I spearheaded the design and implementation of multiple C# desktop applications that streamlined employee operations and created a .NET Core API to deliver financial data securely to external partners, enabling seamless system integration.
+        </p>
+        <app-list [list]="ninthJudicialTechnologies"></app-list>
     </div>
+    <span class="line"></span>
 </div>
